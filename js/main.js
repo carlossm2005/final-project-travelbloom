@@ -1,7 +1,7 @@
 
 const fetchFunction = async () => {
   try {
-    const response = await fetch('/travel_recommendation_api.json');
+    const response = await fetch('final-project-travelbloom/travel_recommendation_api.json');
     const json = await response.json();
     
     return json;
